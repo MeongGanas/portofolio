@@ -123,7 +123,7 @@ export default function Welcome() {
       </div>
       <div className="h-[200vh]">
         <div
-          className="sticky top-0 flex flex-col justify-center w-full h-screen px-10"
+          className="sticky top-0 flex flex-col justify-center w-full h-screen px-10 overflow-x-hidden"
           id="welcome"
         >
           <div className="absolute text-center -translate-x-1/2 top-5 max-w-52 left-1/2">

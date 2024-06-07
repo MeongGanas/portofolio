@@ -7,7 +7,7 @@ export default function RecentWork() {
   useGSAP(() => {
     gsap.from(["#slide-1", "#slide-2"], {
       height: 0,
-      backgroundColor: "transparent",
+      backgroundColor: "white",
     });
 
     gsap.to("#recent-text", {
@@ -62,14 +62,15 @@ export default function RecentWork() {
 
   return (
     <div className="h-[200vh]">
-      <div class="sticky top-0 h-screen" id="container-recent">
-        <div className="flex items-center justify-center h-screen text-white">
-          <div className="fixed top-0 w-full h-0" id="slide-1"></div>
-          <h1 className="text-4xl font-bold md:text-6xl" id="recent-text">
-            RECENT WORK
-          </h1>
-          <div className="fixed bottom-0 w-full h-0" id="slide-2"></div>
-        </div>
+      <div
+        className="sticky top-0 flex items-center justify-center h-screen text-white"
+        id="container-recent"
+      >
+        <div className="fixed top-0 w-full h-0" id="slide-1"></div>
+        <h1 className="text-4xl font-bold md:text-6xl" id="recent-text">
+          RECENT WORK
+        </h1>
+        <div className="fixed bottom-0 w-full h-0" id="slide-2"></div>
       </div>
     </div>
   );
