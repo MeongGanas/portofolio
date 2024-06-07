@@ -21,6 +21,9 @@ export default function Welcome() {
         duration: 1.3,
         delay: 0.3,
       })
+        .from("#study", {
+          opacity: 0,
+        })
         .from("#iam", {
           opacity: 0,
           y: "+=30",
@@ -65,7 +68,6 @@ export default function Welcome() {
   }, []);
 
   useGSAP(() => {
-    gsap.set("#welcome", { filter: "blur(0px)" });
     gsap.to("#welcome", {
       filter: "blur(10px)",
       ease: "power1.inOut",
@@ -89,7 +91,7 @@ export default function Welcome() {
     });
 
     gsap.to("#welcome-2", {
-      xPercent: "100",
+      xPercent: "150",
       ease: "power2.inOut",
       scrollTrigger: {
         trigger: "#welcome",
@@ -119,26 +121,31 @@ export default function Welcome() {
           Student
         </h1>
       </div>
-      <div
-        className="flex items-center justify-center h-screen px-10"
-        id="welcome"
-      >
-        <div className="w-full text-center">
+      <div className="h-[200vh]">
+        <div
+          className="sticky top-0 flex flex-col justify-center w-full h-screen px-10"
+          id="welcome"
+        >
+          <div className="absolute text-center -translate-x-1/2 top-5 max-w-52 left-1/2">
+            <span className="text-sm text-white uppercase" id="study">
+              Currently study at SMK TELKOM MAKASSAR
+            </span>
+          </div>
           <h1
             id="welcome-1"
-            className="mb-10 text-6xl font-bold text-gray-100 md:text-9xl"
+            className="mb-5 text-6xl font-bold text-left text-gray-100 md:text-center md:mb-10 md:text-8xl"
           >
             Let Me Introduce
           </h1>
           <h1
             id="welcome-2"
-            className="mb-10 text-6xl font-bold text-gray-100 md:text-center md:text-9xl"
+            className="mb-5 text-6xl font-bold text-left text-gray-100 md:text-center md:mb-10 md:text-8xl"
           >
             My Self As Web
           </h1>
           <h1
             id="welcome-3"
-            className="mb-10 text-6xl font-bold text-gray-100 md:text-center md:text-9xl"
+            className="mb-5 text-6xl font-bold text-left text-gray-100 md:text-center md:mb-10 md:text-8xl"
           >
             Developer
           </h1>
