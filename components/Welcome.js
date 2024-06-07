@@ -80,7 +80,7 @@ export default function Welcome() {
     });
 
     gsap.to(["#welcome-1", "#welcome-3"], {
-      xPercent: "-100",
+      xPercent: "-150",
       ease: "power2.inOut",
       scrollTrigger: {
         trigger: "#welcome",

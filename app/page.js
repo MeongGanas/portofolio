@@ -8,7 +8,7 @@ export default function Home() {
       <Welcome />
       <Profile />
       <RecentWork />
-      <div class="h-screen bg-white">
+      <div class="relative z-[40] -mt-[50vh] h-screen bg-white">
         <h1>Project</h1>
       </div>
     </>

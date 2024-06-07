@@ -25,6 +25,7 @@ export default function RecentWork() {
       height: "50%",
       backgroundColor: "white",
       ease: "power2.inOut",
+      duration: 2,
       transformOrigin: "bottom",
       scrollTrigger: {
         trigger: "#container-recent",
@@ -38,6 +39,7 @@ export default function RecentWork() {
       height: "50%",
       backgroundColor: "white",
       ease: "power2.inOut",
+      duration: 2,
       transformOrigin: "top",
       scrollTrigger: {
         trigger: "#container-recent",
@@ -61,12 +63,12 @@ export default function RecentWork() {
   return (
     <div className="h-[200vh]">
       <div class="sticky top-0 h-screen" id="container-recent">
-        <div className="relative flex items-center justify-center h-screen text-white">
-          <div className="absolute top-0 w-full h-0" id="slide-1"></div>
-          <h1 className="text-6xl font-bold" id="recent-text">
+        <div className="flex items-center justify-center h-screen text-white">
+          <div className="fixed top-0 w-full h-0" id="slide-1"></div>
+          <h1 className="text-4xl font-bold md:text-6xl" id="recent-text">
             RECENT WORK
           </h1>
-          <div className="absolute bottom-0 w-full h-0" id="slide-2"></div>
+          <div className="fixed bottom-0 w-full h-0" id="slide-2"></div>
         </div>
       </div>
     </div>
