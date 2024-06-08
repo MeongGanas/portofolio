@@ -37,8 +37,8 @@ export default function Profile() {
           My Profile
         </h1>
       </div>
-      <div class="w-full h-full flex items-center md:w-2/3">
-        <div class="line h-full bg-white w-[1px]"></div>
+      <div className="flex items-center w-full h-full md:w-2/3">
+        <div className="line h-full bg-white w-[1px]"></div>
         <div id="desc" className="px-10 h-fit">
           <h1 className="mb-10 text-4xl text-white md:hidden">My Profile</h1>
           <p className="inline text-xl md:text-3xl">

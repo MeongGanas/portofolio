@@ -43,7 +43,7 @@ export default function RecentWork() {
       transformOrigin: "top",
       scrollTrigger: {
         trigger: "#container-recent",
-        start: "top 20%",
+        start: "top center",
         end: "bottom top",
         scrub: 1,
       },
@@ -53,7 +53,7 @@ export default function RecentWork() {
       color: "black",
       scrollTrigger: {
         trigger: "#container-recent",
-        start: "top 20%",
+        start: "top center",
         end: "bottom top",
         scrub: 1,
       },
