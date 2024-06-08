@@ -28,7 +28,7 @@ export default function Profile() {
         end: "bottom top",
       },
     });
-  });
+  }, []);
 
   return (
     <div className="flex flex-wrap items-center h-screen px-5 py-10 ">

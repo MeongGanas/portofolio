@@ -1,4 +1,5 @@
 "use client";
+import Footer from "@/components/Footer";
 import Profile from "@/components/Profile";
 import Projects from "@/components/Projects";
 import RecentWork from "@/components/RecentWork";
@@ -10,6 +11,7 @@ export default function Home() {
       <Profile />
       <RecentWork />
       <Projects />
+      <Footer />
     </>
   );
 }

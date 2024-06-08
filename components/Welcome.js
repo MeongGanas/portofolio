@@ -100,7 +100,7 @@ export default function Welcome() {
         scrub: true,
       },
     });
-  });
+  }, []);
 
   return (
     <div className="relative" ref={comp}>

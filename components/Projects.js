@@ -8,7 +8,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 function ProjectCard({ title, desc, image, index, url }) {
   useGSAP(() => {
     gsap.to(`#project-text-${index}`, {
-      yPercent: 150,
+      yPercent: 130,
       ease: "none",
       scrollTrigger: {
         trigger: `#container-project-${index}`,
@@ -17,7 +17,7 @@ function ProjectCard({ title, desc, image, index, url }) {
         scrub: 1,
       },
     });
-  });
+  }, []);
 
   return (
     <div
@@ -32,9 +32,9 @@ function ProjectCard({ title, desc, image, index, url }) {
           <p className="uppercase">{desc}</p>
         </div>
         <div className="block md:hidden h-fit">
-          <h1 className="mb-5 font-bold uppercase text-7xl md:text-8xl">
+          <div className="mb-5 font-bold uppercase text-7xl md:text-8xl">
             {title}
-          </h1>
+          </div>
           <p className="uppercase">{desc}</p>
         </div>
       </div>
