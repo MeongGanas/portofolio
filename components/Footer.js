@@ -29,7 +29,7 @@ export default function Footer() {
       className="relative z-[40] py-20 px-10 min-h-screen bg-white"
       id="email-container"
     >
-      <h1 className="mb-5 uppercase">let's create something awesome</h1>
+      <h1 className="mb-5 uppercase">let&#39;s create something awesome</h1>
       <div className="mb-20">
         <Link
           href={"mailto:farreluken@gmail.com"}
