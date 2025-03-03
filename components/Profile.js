@@ -78,7 +78,7 @@ export default function Profile() {
                 </div>
 
                 <div className="flex w-full h-full md:w-2/3">
-                    <div id="desc" className="h-fit text-justify">
+                    <div id="desc" className="h-fit text-center md:text-end">
                         <p className="inline text-xl md:text-4xl">
                             My name is Farrel Giovanni Jaohari, and I am 17
                             years old. I live in Makassar, South Sulawesi,

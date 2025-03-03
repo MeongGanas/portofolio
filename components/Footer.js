@@ -38,7 +38,7 @@ export default function Footer() {
                         "https://mail.google.com/mail/?view=cm&fs=1&to=farreluken@gmail.com"
                     }
                     target="_blank"
-                    className="block text-[44px] font-bold uppercase md:text-9xl"
+                    className="block text-[44px] font-bold uppercase md:text-8xl lg:text-9xl"
                 >
                     <div className="mb-10 md:mb-16">
                         {emailName.split("").map((letter, index) => (

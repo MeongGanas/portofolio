@@ -88,19 +88,19 @@ export default function Welcome() {
                     </div>
                     <h1
                         id="welcome-1"
-                        className="mb-5 text-4xl font-bold text-center text-gray-100 md:text-center md:mb-10 md:text-8xl"
+                        className="mb-5 text-4xl font-bold text-center text-gray-100 md:text-center md:mb-10 md:text-7xl lg:text-8xl"
                     >
                         Let Me Introduce
                     </h1>
                     <h1
                         id="welcome-2"
-                        className="mb-5 text-4xl font-bold text-center text-gray-100 md:text-center md:mb-10 md:text-8xl"
+                        className="mb-5 text-4xl font-bold text-center text-gray-100 md:text-center md:mb-10 md:text-7xl lg:text-8xl"
                     >
                         My Self As Web
                     </h1>
                     <h1
                         id="welcome-3"
-                        className="mb-5 text-4xl font-bold text-center text-gray-100 md:text-center md:mb-10 md:text-8xl"
+                        className="mb-5 text-4xl font-bold text-center text-gray-100 md:text-center md:mb-10 md:text-7xl lg:text-8xl"
                     >
                         Developer
                     </h1>

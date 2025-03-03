@@ -44,7 +44,7 @@ function ProjectCard({ title, desc, image, index, url }) {
             <Link
                 href={url}
                 target="_blank"
-                className="relative w-full h-full overflow-hidden transition-all rounded-md max-h-96 md:max-h-none side-image md:w-1/2 border shadow-sm"
+                className="relative w-full h-full overflow-hidden transition-all rounded-md max-h-96 md:max-h-[600px] side-image md:w-1/2 border shadow-sm"
                 id={image}
             ></Link>
         </div>
